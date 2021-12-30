@@ -1,0 +1,51 @@
+body {
+    font-family: arial;
+    background: #e0e0e0;
+  }
+  #mainstopwatch{
+    width: 300px;
+    
+    margin: 100px auto;
+    padding: 60px 50px 100px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 38px;
+    box-shadow: 6px -6px 8px #9d9d9d,
+      -6px 6px 8px #ffffff;
+    
+  }
+  #mainstopwatch span {
+    width: 55px;
+    color:#0776de;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 38px;
+    display: inline-block;
+   box-shadow: 6px -6px 8px #9d9d9d,
+      -6px 6px 8px #ffffff;
+  }
+  #mainstopwatch button {
+    border: none;
+    -webkit-appearance: none; 
+    font-size: 22px;
+    width: 140px;
+    height: 55px;
+    color: white; 
+    background-color: #2e80b3;
+    border-radius: 33px;
+    transition: .3s;
+   box-shadow: 6px -6px 8px #9d9d9d,
+      -6px 6px 8px #ffffff;
+  }
+  #mainstopwatch button:nth-of-type(2) {
+    background-color: #ae7617;
+  }
+  #mainstopwatch button:last-child {
+      margin-top: 12px;
+    background-color: #17ae38;
+  }
+  #mainstopwatch button:hover {
+    background: #333;
+    color: #e0e0e0;
+    border-radius: 38px;
+  }
